@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dbn"
+            android:icon="@drawable/bhaskar_logo"
+            android:title="@string/dainik_bhaskar"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/td"
+            android:icon="@drawable/mcu_news_logo"
+            android:title="@string/the_direct"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/dead"
+            android:icon="@drawable/dealine_logo"
+            android:title="@string/deadline_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/bbc"
+            android:icon="@drawable/bbc_newlogo"
+            android:title="@string/bbc"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/cnn"
+            android:icon="@drawable/cnn_logo"
+            android:title="@string/cnn"
+            android:menuCategory="secondary"/>
+    </group>
+
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/newYork"
+                android:icon="@drawable/new_york_times"
+                android:title="New York Times"
+                android:menuCategory="secondary"/>
+        </menu>
+    </item>
+
+
+</menu>

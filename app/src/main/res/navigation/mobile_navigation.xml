@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/dbn">
+
+    <fragment
+        android:id="@+id/dbn"
+        android:name="com.example.newsapp.ui.dainikbhaskar.HomeFragment"
+        android:label="@string/dainik_bhaskar"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/td"
+        android:name="com.example.newsapp.ui.gallery.GalleryFragment"
+        android:label="@string/the_direct"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/dead"
+        android:name="com.example.newsapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/deadline_news"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/bbc"
+        android:name="com.example.newsapp.fragments.BBC"
+        android:label="@string/bbc"
+        tools:layout="@layout/fragment_b_b_c" />
+    <fragment
+        android:id="@+id/cnn"
+        android:name="com.example.newsapp.fragments.CNN"
+        android:label="@string/cnn"
+        tools:layout="@layout/fragment_c_n_n" />
+</navigation>
